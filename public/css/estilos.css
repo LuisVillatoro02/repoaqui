@@ -1,0 +1,288 @@
+hr {
+    padding: 10px;
+}
+
+#nosotros p {
+    text-align: justify;
+}
+
+#galeria p {
+    text-align: justify;
+}
+
+#info p {
+    text-align: justify;
+}
+
+.container img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.container iframe {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.fotos h2 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#galeria .linea {
+    background: rgb(74, 177, 236);
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.fotos ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fotos li {
+    margin: 10px;
+}
+
+.fotos ul img {
+    width: 300px;
+    height: 200px;
+}
+
+.fotos h2 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grabaciones h2 {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#galeria .linea {
+    background: rgb(74, 177, 236);
+    height: 1px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.ft:hover {
+    transform: scale(1.2);
+    filter: blur(0px);
+    transition-duration: 1s;
+}
+
+.ft2:hover {
+    transform: rotate(360deg);
+    filter: blur(0px);
+    transition-duration: 1s;
+}
+
+.grabaciones ul video {
+    width: 300px;
+    height: 170px;
+}
+
+.grabaciones ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grabaciones li {
+    margin: 5px;
+}
+
+.fotos_electrosen ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fotos_electrosen ul img {
+    width: 250px;
+    height: 250px;
+}
+
+.fotos_electrosen li {
+    margin: 10px;
+}
+
+.fotos_electrosen h4 {
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.videos_electrosen h4 {
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.videos_electrosen ul iframe {
+    width: 300px;
+    height: 170px;
+}
+
+.videos_electrosen ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos_electrosen li {
+    margin: 5px;
+}
+
+
+.manual ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.manual li {
+    margin: 5px;
+}
+
+.manual ul img {
+    width: 650px;
+    height: 450px;
+}
+
+.manual2 ul {
+    width: 90%;
+    list-style: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.manual2 li {
+    margin: 5px;
+}
+
+.manual2 ul img {
+    width: 350px;
+    height: 250px;
+}
+
+#btnEnviar{
+    background: aquamarine;
+    color: black;
+    height: 60px;
+    border: none;
+    width: 140px;
+    text-align:center;
+}
+
+#btnEnviar:hover{
+    background: black;
+    color: white;
+
+}
+
+#copyRight {
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+    padding: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    border: 10px outset;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 990px) {
+    .container iframe {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .videos_electrosen ul iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .videos_electrosen ul iframe {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    #contenedor {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #contenedor2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 690px){
+    #contenedorManuales {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 689px){
+    #contenedorManuales2 {
+        display: none;
+    }
+}
